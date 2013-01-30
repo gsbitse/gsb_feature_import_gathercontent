@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the GSB Feature Import GatherContent feature.
+ */
+
+include_once 'gsb_feature_import_gathercontent.features.inc';

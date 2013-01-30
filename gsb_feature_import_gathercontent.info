@@ -1,0 +1,14 @@
+name = GSB Feature Import GatherContent
+description = Imports pages from Gather content
+core = 7.x
+package = GSB Import
+dependencies[] = ctools
+dependencies[] = feeds
+dependencies[] = feeds_tamper
+features[ctools][] = feeds:feeds_importer_default:1
+features[ctools][] = feeds_tamper:feeds_tamper_default:2
+features[features_api][] = api:1
+features[feeds_importer][] = gathercontent
+features[feeds_tamper][] = gathercontent-jsonpath_parser_0-html_entity_decode
+features[feeds_tamper][] = gathercontent-jsonpath_parser_1-implode
+features[feeds_tamper][] = gathercontent-jsonpath_parser_3-keyword_filter
