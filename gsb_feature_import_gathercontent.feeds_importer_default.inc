@@ -16,7 +16,7 @@ function gsb_feature_import_gathercontent_feeds_importer_default() {
   $feeds_importer->id = 'gathercontent';
   $feeds_importer->config = array(
     'name' => 'GatherContent',
-    'description' => '',
+    'description' => 'Imports pages from Gather content',
     'fetcher' => array(
       'plugin_key' => 'FeedsHTTPFetcher',
       'config' => array(
@@ -33,8 +33,8 @@ function gsb_feature_import_gathercontent_feeds_importer_default() {
           'jsonpath_parser:0' => 'name',
           'jsonpath_parser:1' => 'custom_field_values.*',
           'jsonpath_parser:2' => 'id',
-          'jsonpath_parser:3' => 'state',
-          'jsonpath_parser:4' => '',
+          'jsonpath_parser:3' => '',
+          'jsonpath_parser:4' => 'state',
         ),
         'debug' => array(
           'options' => array(
@@ -72,8 +72,8 @@ function gsb_feature_import_gathercontent_feeds_importer_default() {
             'unique' => 1,
           ),
           3 => array(
-            'source' => 'jsonpath_parser:3',
-            'target' => 'user_name',
+            'source' => 'jsonpath_parser:4',
+            'target' => 'Temporary target 1',
             'unique' => FALSE,
           ),
         ),
