@@ -40,9 +40,9 @@ function gsb_feature_import_gathercontent_feeds_tamper_default() {
   $feeds_tamper = new stdClass();
   $feeds_tamper->disabled = FALSE; /* Edit this to true to make a default feeds_tamper disabled initially */
   $feeds_tamper->api_version = 2;
-  $feeds_tamper->id = 'gathercontent-jsonpath_parser_3-keyword_filter';
+  $feeds_tamper->id = 'gathercontent-jsonpath_parser_4-keyword_filter';
   $feeds_tamper->importer = 'gathercontent';
-  $feeds_tamper->source = 'jsonpath_parser:3';
+  $feeds_tamper->source = 'jsonpath_parser:4';
   $feeds_tamper->plugin_id = 'keyword_filter';
   $feeds_tamper->settings = array(
     'words' => 'page',
@@ -56,7 +56,7 @@ function gsb_feature_import_gathercontent_feeds_tamper_default() {
   );
   $feeds_tamper->weight = 0;
   $feeds_tamper->description = 'Keyword filter';
-  $export['gathercontent-jsonpath_parser_3-keyword_filter'] = $feeds_tamper;
+  $export['gathercontent-jsonpath_parser_4-keyword_filter'] = $feeds_tamper;
 
   return $export;
 }
