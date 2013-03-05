@@ -11,6 +11,7 @@ projects[job_scheduler][subdir] = contrib
 projects[feeds][version] = 2.0-alpha7
 projects[feeds][subdir] = contrib
 projects[feeds][patch][feeds-http_request-POST-handle] = https://raw.github.com/gsbitse/gsb-revamp-patches/master/feeds-http_request-POST-handle.patch
+projects[feeds][patch][feeds-image_alt_and_title_mappings] = https://raw.github.com/gsbitse/gsb-revamp-patches/master/feeds-image_alt_and_title_mappings.patch
 
 projects[feeds_tamper][version] = 1.0-beta4
 projects[feeds_tamper][subdir] = contrib
