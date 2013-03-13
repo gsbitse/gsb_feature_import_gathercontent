@@ -13,7 +13,7 @@ projects[feeds][download][type] = git
 projects[feeds][download][revision] = f004629
 projects[feeds][download][branch] = 7.x-2.x
 projects[feeds][subdir] = contrib
-projects[feeds][patch][feeds-http_request-POST-handle] = https://raw.github.com/gsbitse/gsb-revamp-patches/master/feeds-http_request-POST-handle.patch
+;projects[feeds][patch][feeds-http_request-POST-handle] = https://raw.github.com/gsbitse/gsb-revamp-patches/master/feeds-http_request-POST-handle.patch
 projects[feeds][patch][feeds-alt_and_title] = http://drupal.org/files/feeds-alt_and_title-reroll-1080386-78.patch
 
 projects[feeds_tamper][version] = 1.0-beta4
