@@ -78,7 +78,7 @@ function gsb_feature_import_gathercontent_feeds_importer_default() {
           ),
         ),
         'update_existing' => '2',
-        'input_format' => 'panopoly_wysiwyg_text',
+        'input_format' => 'gsb_wysiwyg_text',
         'skip_hash_check' => 0,
       ),
     ),
